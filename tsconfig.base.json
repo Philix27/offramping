@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/ui-comps": ["packages/ui-comps/src/index.ts"],
+      "@org/ui-comps/server": ["packages/ui-comps/src/server.ts"],
+      "@org/ui/server": ["ui/src/server.ts"],
+      "@org/ui_top/server": ["ui_top/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
